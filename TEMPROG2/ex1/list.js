@@ -1,3 +1,4 @@
+//TAREA 2 ++==
 class Node {
   constructor(value) {
     this.value = value;
@@ -59,6 +60,7 @@ class LinkedList {
       node = node.next;
     }
   }
+  //++
   /**
    * AddBefore
    * @param {number} target 
@@ -107,6 +109,7 @@ class LinkedList {
       node = node.next;
     }
   }
+  //==
   /**
    * 
    */
