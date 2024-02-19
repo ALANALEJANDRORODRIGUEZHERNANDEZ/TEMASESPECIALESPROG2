@@ -94,6 +94,7 @@ function deleteAfter(head, target) {
     nodeCurrent = nodeCurrent.next;
   }
 }
+/*
 // 5 -> 3 -> 7 -> 42 ->
 console.log(printList(one));
 console.log("Ananiendo un 13 despues del 7");
@@ -114,3 +115,5 @@ console.log(printList(one));
 console.log("Eliminando antes del 42");
 deleteBefore(one, 42);
 console.log(printList(one));
+*/
+module.exports = Node;

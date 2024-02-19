@@ -129,7 +129,7 @@ class LinkedList {
 
 const one = new Node(2);
 const list = new LinkedList(one);
-
+/*
 list.addEnd(4);
 list.addStart(1);
 list.addAfter(2, 3);
@@ -153,3 +153,5 @@ list.toString();
 list.addAfter(0,1000);
 console.log("\nLista después de agregar después de 0:");
 list.toString();
+*/
+module.exports = LinkedList;
